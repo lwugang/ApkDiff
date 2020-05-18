@@ -1,10 +1,12 @@
-package com.leewug.src.diff;
+package com.leewug.src.diff.test;
 
 import android.os.Bundle;
 import android.os.Environment;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.widget.Toast;
+
+import com.leewug.src.diff.DiffUtils;
 
 import java.io.File;
 
