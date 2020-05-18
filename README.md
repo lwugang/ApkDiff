@@ -6,12 +6,12 @@
 Add the JitPack repository to your build file
 
 ```
-	allprojects {
-			repositories {
-				...
-				maven { url 'https://jitpack.io' }
-			}
-		}
+allprojects {
+    repositories {
+        ...
+        maven { url 'https://jitpack.io' }
+    }
+}
 ```
 
 ### Step 2
@@ -19,8 +19,8 @@ Add the dependency
 
 ```
 dependencies {
-	         implementation 'com.github.itlwy:AppSmartUpdate:v1.0.7'
-	}
+    implementation 'com.github.lwugang:ApkDiff:v1.0'
+}
 
 ```
 ### ApkDiff
